@@ -1,0 +1,1 @@
+This area is exposed in VM as /usr/local/workspace
