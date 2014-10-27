@@ -13,5 +13,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision "chef_solo" do |chef|
     chef.add_recipe "scala"
+    chef.add_recipe "chef-sbt"
   end
 end
