@@ -5,7 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "chef/centos-6.5"
+  config.vm.box = "chef/centos-7.0"
   config.vm.synced_folder "workspace/", "/usr/local/workspace"
   config.vm.network "forwarded_port", guest: 4000, host: 4000
 
